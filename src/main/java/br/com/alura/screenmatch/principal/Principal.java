@@ -46,19 +46,19 @@ public class Principal {
         while (opcao != 0) {
             var menu = """
                     --------------------------------------------------------------------      
-                    1 - Carregar séries do OMDB
-                    2 - Carregar episódios do OMDB
-                    3 - Listar séries carregadas
-                    4 - Buscar série por título
-                    5 - Buscar série por ator
-                    6 - Buscar Top 5 séries
-                    7 - Buscar séries por categoria
-                    8 - Filtrar séries (número máximo de temporadas e avaliação mínima)
-                    9 - Buscar espisódios
+                    1  - Carregar séries do OMDB
+                    2  - Carregar episódios do OMDB
+                    3  - Listar séries carregadas
+                    4  - Buscar série por título
+                    5  - Buscar série por ator
+                    6  - Buscar Top 5 séries
+                    7  - Buscar séries por categoria
+                    8  - Filtrar séries (número máximo de temporadas e avaliação mínima)
+                    9  - Buscar espisódios
                     10 - Buscar Top 5 episódios
                     11 - Buscar episódios de uma serie por ano
                     --------------------------------------------------------------------
-                    0 - Sair
+                    0  - Sair
                     --------------------------------------------------------------------
                     """;
             System.out.println(menu);
