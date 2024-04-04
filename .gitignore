@@ -32,5 +32,5 @@ build/
 ### VS Code ###
 .vscode/
 
-## Key Chat GPT ##
-.keychatgpt
+## Key OpenIA Chat GPT ##
+*.keyopenia
