@@ -1,0 +1,19 @@
+
+### Excluir todas as imagens e containers ###
+#docker system prune -a
+
+### Criar rede entre os containers ###
+#docker network create --driver bridge my-network
+
+
+### Inicio do banco de dados postgres ###
+#docker pull postgres
+#docker run --name postgres --network=my-network -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=user -p 5433:5432 -v postgres-volume:/var/lib/postgresql/data -d postgres 
+
+
+### Criar co container do pgadmin ###
+#docker pull dpage/pgadmin4
+#docker run --name pgadmin --network=my-network -p 15432:80 -e 'PGADMIN_DEFAULT_EMAIL=user@pgadmin.com' -e 'PGADMIN_DEFAULT_PASSWORD=postgres' -d dpage/pgadmin4
+
+### Analisa a rede criada ###
+#docker inspect my-network
