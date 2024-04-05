@@ -1,11 +1,9 @@
 package br.com.alura.screenmatch.model;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.OptionalDouble;
 
-import br.com.alura.screenmatch.service.ConsultaChatGPT;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
